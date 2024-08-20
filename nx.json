@@ -9,5 +9,13 @@
       "default"
     ],
     "sharedGlobals": []
-  }
+  },
+  "plugins": [
+    {
+      "plugin": "@robby-rabbitman/nx-plus-web-dev-server/plugin",
+      "options": {
+        "serveTargetName": "serve"
+      }
+    }
+  ]
 }
